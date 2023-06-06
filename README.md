@@ -3,5 +3,6 @@ A higher or lower game, written in the Python language.
 
 # How to Play?
 - Clone repository to your computer
-- Open in Visual Studio Code, or your favorite coding IDE
-- Run by clicking the 'play' button, or `py "Higher or Lower Game.py"`
+- Open in Visual Studio Code, or your favourite coding IDE
+- Run by clicking the 'play' button
+- Additionally, you could also navigate to the directory in the Visual Studio code terminal/command prompt within Windows and run `py "Higher or Lower Game.py"`
