@@ -7,7 +7,7 @@ const play = () => {
     let go = true
 
     // generates the first random number, requests user input and validates it
-    let integer = Math.round(Math.random() * 101)
+    let integer = Math.floor(Math.random() * 101)
     console.log(`The number is ${integer}. Higher (H) or Lower (L)?`)
     let userInp = prompt('> ').toUpperCase()
     while (userInp != 'H' && userInp != 'L') {
@@ -19,7 +19,7 @@ const play = () => {
     while (go === true) {
 
         // generate a new random number
-        let newInteger = Math.round(Math.random()* 101)
+        let newInteger = Math.floor(Math.random() * 101)
 
         // check if the new number being higher or lower matches user input
         if ((userInp == 'H' && newInteger > integer) || (userInp == 'L' && newInteger < integer)) {
@@ -29,7 +29,7 @@ const play = () => {
                 console.log("That was not a correct input, please enter 'H' for Higher or 'L' for Lower")
                 userInp = prompt('> ').toUpperCase()
             };
-            
+
             // set new number to old variable in order to repeat cycle
             integer = newInteger
         }
