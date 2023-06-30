@@ -1,0 +1,22 @@
+{
+  "name": "higher-or-lower-game",
+  "version": "1.0.0",
+  "description": "A higher or lower game, written in the Python language.",
+  "main": "\"Higher or Lower Game.js\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ignxdank/higher-or-lower-game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ignxdank/higher-or-lower-game/issues"
+  },
+  "homepage": "https://github.com/ignxdank/higher-or-lower-game#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
