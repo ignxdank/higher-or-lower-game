@@ -16,5 +16,5 @@ A higher or lower game, written in the Python and JavaScript languages.
 ## Steps
 - Clone repository to your computer
 - Open in Visual Studio Code, or your favourite coding IDE
-- If you do not wish to install the prompt-sync package globally, do `npm i` in the terminal to install all necessary packages
+- If you do not wish to install the prompt-sync package globally, do `npm i prompt-sync` in the terminal to install all necessary packages
 - Run by entering `node "Higher or Lower Game.js"` in the terminal
